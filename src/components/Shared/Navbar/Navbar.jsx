@@ -2,13 +2,34 @@ import { Link } from "react-router-dom";
 import Container from "../Container/Container";
 
 import Logo from "../../../assets/Logo.svg";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const [scrolling, setScrolling] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.pageYOffset > 0) {
+        setScrolling(true);
+      } else {
+        setScrolling(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
-    <header className="fixed top-0 w-full">
+    <header
+      className={`fixed top-0 w-full ${
+        scrolling ? "bg-white" : "bg-transparent"
+      } duration-200`}
+    >
       <div className="navbar max-w-[1520px] px-5 mx-auto">
         <div className="navbar-start">
           <div className="dropdown">

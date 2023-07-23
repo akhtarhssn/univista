@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes bounce-slow {
+  0%,
+  100% {
+    transform: translateY(0) translateX(-50px);
+  }
+  50% {
+    transform: translateY(-50px) translateX(0px);
+  }
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 5s infinite;
+}

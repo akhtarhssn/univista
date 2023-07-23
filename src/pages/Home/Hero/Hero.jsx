@@ -10,10 +10,10 @@ const Hero = () => {
           <p className="uppercase text-primary font-medium">
             for a better future
           </p>
-          <h1 className="text-7xl font-extrabold uppercase leading-tight font-Poppins">
-            Find and apply to <br /> your dream college
+          <h1 className="text-3xl sm:text-5xl  lg:text-7xl font-extrabold uppercase leading-tight font-Poppins">
+            Find and apply to <br /> your favorite college
           </h1>
-          <p className="my-5 text-xl">
+          <p className="my-5 md:text-xl">
             Univista Education Can Fulfil Your International Education Dream As
             Per Your Best Fit with world top universities and collages.
           </p>
@@ -25,7 +25,7 @@ const Hero = () => {
               name="search"
               placeholder="Stanford University"
             />
-            <button className="bg-primary py-3 px-10 rounded-tr-md rounded-br-md text-white">
+            <button className="bg-primary py-3 px-7 sm:px-10 rounded-tr-md rounded-br-md text-white">
               <RiSearchLine size={25} />
             </button>
           </div>

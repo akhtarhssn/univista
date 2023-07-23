@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "../../../components/Shared/Container/Container";
+import { Link } from "react-router-dom";
 
 const AboutUs = () => {
   return (
@@ -8,7 +9,7 @@ const AboutUs = () => {
         <div className="md:flex gap-10 space-y-14 md:space-y-0 justify-center items-center">
           <div className="mx-auto relative">
             <img
-              className="rounded-md z-10"
+              className="rounded-md"
               src="https://raw.githubusercontent.com/uiaextend/jeduplan/main/header/header-img.png"
               alt="About image"
             />
@@ -19,6 +20,9 @@ const AboutUs = () => {
             />
           </div>
           <div className="max-w-[650px]">
+            <p className="uppercase text-primary font-medium underline underline-offset-4 decoration-4 mb-5">
+              about us
+            </p>
             <h2 className="font-Poppins text-4xl font-bold">
               Bringing the world together through knowledge
             </h2>
@@ -36,7 +40,7 @@ const AboutUs = () => {
               modi tempore aliquam, eligendi beatae architecto? Sint, amet nemo
               eveniet aperiam quia accusamus dolorem iusto ex.
             </p>
-            <p className="font-Poppins font-light text-gray-400">
+            <p className="font-Poppins font-light text-gray-400 mb-7">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptatum quidem reprehenderit soluta aperiam doloremque veniam,
               fuga blanditiis officiis quasi eveniet quisquam. Nemo soluta
@@ -47,6 +51,11 @@ const AboutUs = () => {
               molestiae fugiat ad nam consequatur deserunt eligendi libero sint
               ratione. Ipsum sapiente obcaecati accusamus facilis quia placeat!
             </p>
+            <Link>
+              <button className="border-2 border-primary px-6 py-3 font-semibold hover:bg-primary hover:text-white hover:outline-2 hover:-outline-offset-8 outline-white outline rounded-md duration-300 hover:rounded-none">
+                Learn More
+              </button>
+            </Link>
           </div>
         </div>
       </Container>

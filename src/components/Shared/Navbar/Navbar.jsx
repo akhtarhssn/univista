@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <header
       className={`fixed top-0 w-full ${
-        scrolling ? "bg-white" : "bg-transparent"
+        scrolling ? "bg-white z-10" : "bg-transparent"
       } duration-200`}
     >
       <div className="navbar max-w-[1520px] px-5 mx-auto">
@@ -63,25 +63,25 @@ const Navbar = () => {
                 <li className="group w-full">
                   <Link>
                     Home
-                    <span className="block max-w-0 group-hover:max-w-full transition-all duration-700 h-1 bg-black   mt-[1px]"></span>
+                    <span className="block max-w-0 group-hover:max-w-full transition-all duration-700 h-1 bg-primary   mt-[1px]"></span>
                   </Link>
                 </li>
                 <li className="group w-full">
                   <Link>
                     College
-                    <span className="block max-w-0 group-hover:max-w-full transition-all duration-700 h-1 bg-black   mt-[1px]"></span>
+                    <span className="block max-w-0 group-hover:max-w-full transition-all duration-700 h-1 bg-primary   mt-[1px]"></span>
                   </Link>
                 </li>
                 <li className="group w-full">
                   <Link>
                     Admission
-                    <span className="block max-w-0 group-hover:max-w-full transition-all duration-700 h-1 bg-black   mt-[1px]"></span>
+                    <span className="block max-w-0 group-hover:max-w-full transition-all duration-700 h-1 bg-primary   mt-[1px]"></span>
                   </Link>
                 </li>
                 <li className="group w-full">
                   <Link>
                     Contact
-                    <span className="block max-w-0 group-hover:max-w-full transition-all duration-700 h-1 bg-black   mt-[1px]"></span>
+                    <span className="block max-w-0 group-hover:max-w-full transition-all duration-700 h-1 bg-primary   mt-[1px]"></span>
                   </Link>
                 </li>
               </ul>
@@ -97,25 +97,25 @@ const Navbar = () => {
             <li className="group">
               <Link>
                 Home
-                <span className="block max-w-0 group-hover:max-w-full transition-all duration-700 h-1 bg-black mt-[1px]"></span>
+                <span className="block max-w-0 group-hover:max-w-full transition-all duration-700 h-1 bg-primary mt-[1px]"></span>
               </Link>
             </li>
             <li className="group">
               <Link>
                 College
-                <span className="block max-w-0 group-hover:max-w-full transition-all duration-700 h-1 bg-black mt-[1px]"></span>
+                <span className="block max-w-0 group-hover:max-w-full transition-all duration-700 h-1 bg-primary mt-[1px]"></span>
               </Link>
             </li>
             <li className="group">
               <Link>
                 Admission
-                <span className="block max-w-0 group-hover:max-w-full transition-all duration-700 h-1 bg-black mt-[1px]"></span>
+                <span className="block max-w-0 group-hover:max-w-full transition-all duration-700 h-1 bg-primary mt-[1px]"></span>
               </Link>
             </li>
             <li className="group">
               <Link>
                 Contact
-                <span className="block max-w-0 group-hover:max-w-full transition-all duration-700 h-1 bg-black mt-[1px]"></span>
+                <span className="block max-w-0 group-hover:max-w-full transition-all duration-700 h-1 bg-primary mt-[1px]"></span>
               </Link>
             </li>
           </ul>

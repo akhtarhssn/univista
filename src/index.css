@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@keyframes bounce-slow {
+@keyframes bounce-side {
   0%,
   100% {
     transform: translateY(0) translateX(-50px);
@@ -11,7 +11,21 @@
     transform: translateY(-50px) translateX(0px);
   }
 }
+@keyframes bounce-slow {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
 
-.animate-bounce-slow {
-  animation: bounce-slow 5s infinite;
+.animate-bounce-side {
+  animation: bounce-side 5s infinite;
+}
+@media (max-width: 640px) {
+  .animate-bounce-slow {
+    animation: bounce-slow 3s infinite;
+  }
 }

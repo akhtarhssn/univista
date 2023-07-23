@@ -9,12 +9,12 @@ const AboutUs = () => {
         <div className="md:flex gap-10 space-y-14 md:space-y-0 justify-center items-center">
           <div className="mx-auto relative">
             <img
-              className="rounded-md"
+              className="rounded-md animate-bounce-slow"
               src="https://raw.githubusercontent.com/uiaextend/jeduplan/main/header/header-img.png"
               alt="About image"
             />
             <img
-              className="absolute top-0 -right-10 animate-bounce-slow"
+              className="hidden md:block absolute top-0 -right-10 animate-bounce-side"
               src="https://raw.githubusercontent.com/uiaextend/jeduplan/main/header/plane.png"
               alt=""
             />

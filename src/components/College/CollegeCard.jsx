@@ -4,7 +4,8 @@ import { MdAccessTime, MdScience, MdSportsFootball } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 const CollegeCard = ({ college }) => {
-  const { name, image, admission_date, events, sports, research } = college;
+  const { _id, name, image, admission_date, events, sports, research } =
+    college;
   return (
     <div className="card bg-base-100 shadow-md hover:shadow-2xl duration-300 ">
       <figure>
@@ -15,7 +16,7 @@ const CollegeCard = ({ college }) => {
         />
       </figure>
       <div className="card-body">
-        <div className="flex items-center gap-5">
+        <div className="flex items-center gap-2 2xl:gap-5">
           <span className="flex items-center gap-1">
             <BiSolidCalendarEvent className="text-primary" />
             Events: {events}
@@ -34,7 +35,7 @@ const CollegeCard = ({ college }) => {
           <div className="flex items-center gap-2">
             <MdAccessTime /> {admission_date}
           </div>
-          <Link>
+          <Link to={`/college/${_id}`}>
             <button className="border-2 border-primary px-8 py-2 font-semibold hover:bg-primary hover:text-white hover:outline-2 hover:-outline-offset-8 outline-white outline rounded-md duration-300 hover:rounded-none">
               Details
             </button>

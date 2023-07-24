@@ -9,12 +9,15 @@ import { Toaster } from "react-hot-toast";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import { HelmetProvider } from "react-helmet-async";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <AuthProvider>
-      <Toaster />
-      <RouterProvider router={router} />
+      <HelmetProvider>
+        <Toaster />
+        <RouterProvider router={router} />
+      </HelmetProvider>
     </AuthProvider>
   </React.StrictMode>
 );

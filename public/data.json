@@ -7,7 +7,14 @@
     "research": 30,
     "sports": 5,
     "details": "Stanford University, officially Leland Stanford Junior University, is a private research university in Stanford, California. The campus occupies 8,180 acres (3,310 hectares), among the largest in the United States, and enrolls over 17,000 students. Stanford is widely considered to be one of the most prestigious universities in the world. Stanford was founded in 1885 by Leland and Jane Stanford in memory of their only child, Leland Stanford Jr., who had died of typhoid fever at age 15 the previous year. Leland Stanford was a U.S. senator and former governor of California who made his fortune as a railroad tycoon. The university admitted its first students on October 1, 1891, as a coeducational and non-denominational institution. Stanford University struggled financially after the death of Leland Stanford in 1893 and again after much of the campus was damaged by the 1906 San Francisco earthquake.Following World War II, provost of Stanford Frederick Terman inspired and supported faculty and graduates' entrepreneurialism to build a self-sufficient local industry, which would later be known as Silicon Valley.",
-    "rating": 4.3
+    "rating": 4.3,
+    "subjects": [
+      "Mathematics",
+      "Computer Science",
+      "Biology",
+      "History",
+      "Economics"
+    ]
   },
   {
     "name": "Harvard University",
@@ -17,7 +24,14 @@
     "research": 25,
     "sports": 2,
     "details": "Harvard's founding was authorized by the Massachusetts colonial legislature, dreading to leave an illiterate ministry to the churches, when our present ministers shall lie in the dust though never formally affiliated with any denomination, in its early years Harvard College primarily trained Congregational clergy. Its curriculum and student body were gradually secularized during the 18th century. By the 19th century, Harvard emerged as the most prominent academic and cultural institution among the Boston elite.[10][11] Following the American Civil War, under President Charles William Eliot's long tenure (1869–1909), the college developed multiple affiliated professional schools that transformed the college into a modern research university. In 1900, Harvard co-founded the Association of American Universities.[12] James B. Conant led the university through the Great Depression and World War II, and liberalized admissions after the war.",
-    "rating": 4.5
+    "rating": 4.5,
+    "subjects": [
+      "Law",
+      "Medicine",
+      "Literature",
+      "Philosophy",
+      "Chemistry"
+    ]
   },
   {
     "name": "Massachusetts Institute of Technology",
@@ -27,7 +41,14 @@
     "research": 20,
     "sports": 7,
     "details": "The Massachusetts Institute of Technology (MIT) is a private land-grant research university in Cambridge, Massachusetts. Established in 1861, the institute has since played a key role in the development of modern technology. As of October 2022, 97 Nobel laureates, 26 Turing Award winners, and 8 Fields Medalists have been affiliated with MIT as alumni, faculty members, or researchers. In addition, 58 National Medal of Science recipients, 29 National Medals of Technology and Innovation recipients, 50 MacArthur Fellows, 80 Marshall Scholars, 3 Mitchell Scholars, 25 Rhodes Scholars, 41 astronauts, and 16 Chief Scientists of the U.S. Air Force have been affiliated with MIT. The university also has a strong entrepreneurial culture, and the aggregated annual revenues of companies founded by MIT alumni (US$2 trillion) would rank roughly as the world's 13th-largest economy (2021). MIT is a member of the Association of American Universities (AAU).",
-    "rating": 3.5
+    "rating": 3.5,
+    "subjects": [
+      "Engineering",
+      "Physics",
+      "Astronomy",
+      "Robotics",
+      "Electronics"
+    ]
   },
   {
     "name": "University of Oxford",
@@ -37,7 +58,14 @@
     "research": 15,
     "sports": 3,
     "details": "The University of Oxford is a collegiate research university in Oxford, England. There is evidence of teaching as early as 1096, making it the oldest university in the English-speaking world and the world's second-oldest university in continuous operation. It grew rapidly from 1167 when Henry II banned English students from attending the University of Paris. After disputes between students and Oxford townsfolk in 1209, some academics fled northeast to Cambridge where they established what became the University of Cambridge. The two English ancient universities share many common features and are often jointly referred to as Oxbridge. The university is made up of 39 semi-autonomous constituent colleges, six permanent private halls, and a range of academic departments which are organized into four divisions. All the colleges are self-governing institutions within the university, each controlling its own membership and with its own internal structure and activities. It does not have a main campus, and its buildings and facilities are scattered throughout the city centre. Undergraduate teaching at Oxford is organized around weekly tutorials at the colleges and halls, supported by classes, lectures, seminars, and laboratory work provided by university faculties and departments.",
-    "rating": 5
+    "rating": 5,
+    "subjects": [
+      "Literature",
+      "Philosophy",
+      "Biology",
+      "History",
+      "Law"
+    ]
   },
   {
     "name": "California Institute of Technology",
@@ -47,7 +75,14 @@
     "research": 10,
     "sports": 1,
     "details": "The California Institute of Technology (Caltech) is a private research university in Pasadena, California. The university is known for its strength in natural science and engineering, and is considered one of the top research universities in the world. Caltech offers undergraduate and graduate degree programs in a range of science and engineering disciplines, as well as interdisciplinary programs in applied mathematics, environmental science and engineering, and computational science and engineering. The primary campus is located approximately 11 miles northeast of downtown Los Angeles, and extends eastward into the city of Pasadena. The university is one of a small number of Institute of Technology-style institutions in the United States and is part of the Association of American Universities. Caltech is frequently ranked as one of the world's top-ten universities and one of the top institutions in the United States.",
-    "rating": 4.5
+    "rating": 4.5,
+    "subjects": [
+      "Physics",
+      "Chemistry",
+      "Computer Science",
+      "Astronomy",
+      "Mathematics"
+    ]
   },
   {
     "name": "Yale University",
@@ -57,7 +92,14 @@
     "research": 5,
     "sports": 9,
     "details": "Yale University is a private Ivy League research university in New Haven, Connecticut. Founded in 1701 as the Collegiate School, it is the third-oldest institution of higher education in the United States and one of the nine Colonial Colleges chartered before the American Revolution. The Collegiate School was renamed Yale College in 1718 to honor the school's largest private benefactor for the first century of its existence, Elihu Yale. Yale College was chartered by the Colony of Connecticut in 1701 alongside Harvard College (1693) and the College of New Jersey (1746, now Princeton University). It was restricted to clergy and theologians of the Congregationalist faith. The university's assets include an endowment valued at $31.2 billion in 2021, the second-largest endowment of any educational institution in the world.",
-    "rating": 4.3
+    "rating": 4.3,
+    "subjects": [
+      "Medicine",
+      "Law",
+      "Literature",
+      "History",
+      "Economics"
+    ]
   },
   {
     "name": "University of Cambridge",
@@ -67,7 +109,14 @@
     "research": 40,
     "sports": 4,
     "details": "The University of Cambridge is a collegiate public research university in Cambridge, England. Founded in 1209 and granted a royal charter by King Henry III in 1231, Cambridge is the second-oldest university in the English-speaking world and the world's fourth-oldest surviving university. The university grew out of an association of scholars who left the University of Oxford after a dispute with the townspeople. The two ancient universities share many common features and are often jointly referred to as Oxbridge. Cambridge is formed from a variety of institutions that include 31 constituent colleges and over 100 academic departments organized into six schools. The university occupies buildings throughout the town, many of which are of historical importance. The colleges are self-governing institutions founded as integral parts of the university. In the year ended 31 July 2021, the university had a total income of £2.192 billion, of which £635 million was from research grants and contracts. The university is closely linked with the development of the high-tech business cluster known as 'Silicon Fen'. It is a member of numerous associations and forms part of the 'golden triangle' of English universities.",
-    "rating": 4
+    "rating": 4,
+    "subjects": [
+      "Computer Science",
+      "Engineering",
+      "Physics",
+      "Mathematics",
+      "Biology"
+    ]
   },
   {
     "name": "University of Chicago",
@@ -77,7 +126,14 @@
     "research": 50,
     "sports": 6,
     "details": "The University of Chicago is a private research university in Chicago, Illinois. Founded in 1890, the school is located on a 217-acre campus in Chicago's Hyde Park neighborhood. The University of Chicago has a long list of accomplished alumni, including 100 Nobel laureates, 25 Turing Award winners, 25 National Humanities Medalists, 16 billionaire graduates (including Jeff Bezos and Larry Ellison), and 10 Rhodes Scholars. The university is also well known for its rigorous Core curriculum, which emphasizes critical thinking, debate, and writing skills. The University of Chicago's business school, law school, and economics department are particularly prestigious and influential. The university's faculty and alumni have made significant contributions to fields such as economics, law, psychology, literary criticism, religion, political science, and the arts.",
-    "rating": 4.3
+    "rating": 4.3,
+    "subjects": [
+      "Economics",
+      "Psychology",
+      "Literature",
+      "Philosophy",
+      "Political Science"
+    ]
   },
   {
     "name": "Princeton University",
@@ -87,6 +143,13 @@
     "research": 60,
     "sports": 8,
     "details": "Princeton University is a private Ivy League research university in Princeton, New Jersey. Founded in 1746 in Elizabeth as the College of New Jersey, Princeton is the fourth-oldest institution of higher education in the United States and one of the nine colonial colleges chartered before the American Revolution. The institution moved to Newark in 1747, and then to the current site nine years later. It was renamed Princeton University in 1896. Princeton provides undergraduate and graduate instruction in the humanities, social sciences, natural sciences, and engineering. It offers professional degrees through the Woodrow Wilson School of Public and International Affairs, the School of Engineering and Applied Science, the School of Architecture and the Bendheim Center for Finance. The university has ties with the Institute for Advanced Study, Princeton Theological Seminary and the Westminster Choir College of Rider University. Princeton has been associated with 69 Nobel laureates, 15 Fields Medalists, 14 Turing Award laureates (the most in the world for any one institution), four U.S. Presidents, 21 members of the U.S. Supreme Court, and numerous living billionaires and foreign heads of state.",
-    "rating": 3.4
+    "rating": 3.4,
+    "subjects": [
+      "Engineering",
+      "Physics",
+      "Chemistry",
+      "Biology",
+      "Mathematics"
+    ]
   }
 ]

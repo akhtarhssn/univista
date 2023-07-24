@@ -96,7 +96,7 @@ const CollegeDetails = () => {
                 </p>
               </div>
               <div className="px-5 pb-10">
-                <Link to={`/college/${college._id}`}>
+                <Link to={`/admission/${college._id}`}>
                   <button className="bg-primary w-full py-4 text-lg font-semibold text-white font-Poppins rounded hover:bg-transparent hover:outline-2 hover:outline outline-primary hover:text-gray-800 duration-300">
                     Apply Now
                   </button>

@@ -74,7 +74,7 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="group w-full">
-                  <Link>
+                  <Link to="/admission">
                     Admission
                     <span className="block max-w-0 group-hover:max-w-full transition-all duration-700 h-1 bg-primary   mt-[1px]"></span>
                   </Link>
@@ -118,7 +118,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="group">
-              <Link>
+              <Link to="/admission">
                 Admission
                 <span className="block max-w-0 group-hover:max-w-full transition-all duration-700 h-1 bg-primary mt-[1px]"></span>
               </Link>

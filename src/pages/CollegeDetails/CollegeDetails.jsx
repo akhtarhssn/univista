@@ -5,7 +5,6 @@ import { Rating } from "@smastrom/react-rating";
 import "@smastrom/react-rating/style.css";
 import { MdAccessTime, MdScience, MdSportsFootball } from "react-icons/md";
 import { BiSolidCalendarEvent } from "react-icons/bi";
-import Reviews from "../../components/Reviews/Reviews";
 
 const CollegeDetails = () => {
   const college = useLoaderData();

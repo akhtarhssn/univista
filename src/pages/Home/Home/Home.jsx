@@ -1,3 +1,4 @@
+import PhotoGallery from "../../../components/PhotoGallery/PhotoGallery";
 import Reviews from "../../../components/Reviews/Reviews";
 import AboutUs from "../AboutUs/AboutUs";
 import Hero from "../Hero/Hero";
@@ -9,7 +10,10 @@ const Home = () => {
       <Hero />
       <AboutUs />
       <PopularCollege />
-      <Reviews />
+      <PhotoGallery />
+      <div className="hidden lg:block">
+        <Reviews />
+      </div>
     </div>
   );
 };

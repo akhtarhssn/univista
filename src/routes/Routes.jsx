@@ -18,13 +18,13 @@ export const router = createBrowserRouter([
       {
         path: "college",
         element: <College />,
-        loader: () => fetch("http://localhost:5000/colleges"),
+        loader: () => fetch(`${import.meta.env.VITE_API_URL}/colleges`),
       },
       {
         path: "college/:id",
         element: <CollegeDetails />,
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/colleges/${params.id}`),
+          fetch(`${import.meta.env.VITE_API_URL}/colleges/${params.id}`),
       },
     ],
   },

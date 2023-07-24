@@ -10,14 +10,12 @@ const Navbar = () => {
   const [scrolling, setScrolling] = useState(false);
   const location = useLocation();
   const [isHomePage, setIsHomePage] = useState(location.pathname === "/");
-  const [menuTextColor, setMenuTextColor] = useState("text-black");
   const { user, logOut } = useContext(AuthContext);
 
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 0) {
         setScrolling(true);
-        setMenuTextColor("text-black"); // Set the menu text color to black when scrolling is true
       } else {
         setScrolling(false);
       }
@@ -35,16 +33,11 @@ const Navbar = () => {
     setIsHomePage(location.pathname === "/");
   }, [location.pathname]);
 
-  useEffect(() => {
-    // Update the menu text color based on scrolling and isHomePage
-    setMenuTextColor(scrolling || !isHomePage ? "text-white" : "text-black");
-  }, [scrolling, isHomePage]);
-
   return (
     <header
-      className={`fixed top-0 w-full z-10 ${
+      className={`fixed top-0 w-full z-10  ${
         scrolling ? "bg-white z-10" : "bg-transparent"
-      } duration-200`}
+      } duration-300`}
     >
       <div className="navbar max-w-[1520px] px-5 py-5 md:py-0 mx-auto">
         <div className="navbar-start">
@@ -56,8 +49,8 @@ const Navbar = () => {
             >
               <HiMiniBars3CenterLeft
                 className={`${
-                  !isHomePage ? "text-white" : "text-black"
-                } ${menuTextColor}`}
+                  isHomePage || scrolling ? "text-black" : "text-white"
+                }`}
                 size={25}
               />
             </label>
@@ -107,8 +100,10 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul
             className={`flex gap-6 ${
-              !isHomePage ? "text-white" : "text-black"
-            } ${menuTextColor}`}
+              scrolling || location.pathname == "/"
+                ? "text-black"
+                : "text-white"
+            }`}
           >
             <li className="group">
               <Link to="/">
@@ -163,10 +158,10 @@ const Navbar = () => {
             <Link to="/login">
               <button
                 className={` px-10 py-3 font-semibold hover:bg-gray-800 hover:text-white hover:-outline-offset-8  hover:outline-primary outline rounded-md duration-300 hover:rounded-none ${
-                  !isHomePage
-                    ? "outline-primary text-white"
-                    : "outline-gray-800"
-                } ${menuTextColor}`}
+                  isHomePage || scrolling
+                    ? "outline-gray-800"
+                    : "outline-primary text-white"
+                }`}
               >
                 Login
               </button>

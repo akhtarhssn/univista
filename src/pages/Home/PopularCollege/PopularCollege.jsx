@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const PopularCollege = () => {
   const [colleges, setColleges] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/colleges")
+    fetch("https://univista-server.vercel.app/colleges")
       .then((res) => res.json())
       .then((data) => setColleges(data))
       .catch((err) => console.log(err));
@@ -31,7 +31,7 @@ const PopularCollege = () => {
         ))}
       </div>
       <div className="text-center my-10">
-        <Link>
+        <Link to="/college">
           <button className="border-2 border-primary px-10 py-3 font-semibold hover:bg-primary hover:text-white hover:outline-2 hover:-outline-offset-8 outline-white outline rounded-sm duration-300 hover:rounded-none">
             See All
           </button>
